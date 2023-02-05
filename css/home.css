@@ -1,0 +1,65 @@
+/* Container holding the image and the text */
+.home-image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  
+  .bottom-left {
+    position: absolute;
+    display: block;
+    margin:0 auto;
+    bottom: 8px;
+    left: 20%;
+  
+    font-weight: 900;
+    background-color: gray;
+    width:60%;
+    padding: 1%;
+  
+
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    font-size: 80px;;
+    top: 40%;
+    left:30%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .vl {
+    background: rgb(239, 161, 16);
+     padding: 2px;
+    width: 2px; 
+       left: 45%;position:absolute;
+        height: 170px;}
+
+.row2 .column2.left h1{
+    font-weight: 800;
+}
+.row2 .column2.right h4{
+    font-style: bold;
+    font-weight: 700;
+}
+
+
+.row1 .column1.left{
+
+}
+.card-group .card img{
+    height: 200px;
+}
+.card-group .card .card-body .card-link{
+color: black;
+background: rgb(228, 151, 6);
+padding: 2px;
+width: 30%;
+text-align: center;
+}
+
+
+
