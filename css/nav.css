@@ -47,6 +47,12 @@ nav .links {
 	justify-content: space-around;
 	align-items: center;
 }
+/* nav .links {
+	display:inline-block;
+	 text-align:center;} */
+nav input .links li a:hover{
+    color: rgb(251,175,67);
+  }
 nav .logo img {
 	float: left;
 	width: 50%;
@@ -70,8 +76,8 @@ nav .links li {
 
 nav .links a {
 	display: block;
-	padding: 1em;
-	font-size: 15.5px;
+	padding: 0.5em;
+	font-size: 18px;
 	color: black;
 
     
@@ -88,6 +94,9 @@ nav .links a {
     width: 100%;
     
     text-align: center;
+}
+nav .links a:hover {
+	color: rgb(251,175,67);
 }
 #nav-toggle {
 	position: absolute;
@@ -402,10 +411,24 @@ body{
 	margin: 2%;
 	
   }
+
   .new-footer, .new-footer .card{
-	background: grey;
+	background: rgb(68,68,68);
 	color: white;
   }
   .new-footer .card{
 	border: none;
   }
+iframe{
+	height: 220px;
+	width: 100%;
+}
+.card-text.about{
+	font-size: 15px;
+  }
+  .card-text.contact p{
+	font-size: 14px;
+  }
+hr{
+	width: 35%;
+}
