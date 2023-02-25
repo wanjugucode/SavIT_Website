@@ -24,7 +24,7 @@
     bottom: -1px;
     left: 5%;
     font-weight: 900;
-	background: rgb(107, 108, 110);
+	  background: rgb(107, 108, 110);
   border-radius: 1%;
   opacity: 80%;
     color: white;
@@ -40,6 +40,7 @@
     top: 40%;
     left:30%;
     transform: translate(-30%, -50%);
+    height: auto;
 
   }
 
@@ -78,6 +79,7 @@
     opacity: 60%;
     width: 40%;
     height: 300px;
+
     
 
 }
@@ -123,3 +125,50 @@ text-align: center;
 
 
 
+/* Responsiveness */
+@media screen and (max-width: 880px){
+
+  .centered{
+    height: auto;
+    margin-top: 40%;
+  }
+  .centered h1{
+    text-align: left;
+    width: 70%;
+
+  }
+.centered h4{
+  text-align: left;
+  visibility: hidden;
+}
+
+.bottom-left {
+  visibility: hidden;
+}
+.row2 .vl{
+  visibility: hidden;
+}
+.row2 .column2.left{
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
+  height: auto;
+  
+
+  
+}
+.row2 .column2.column2.right{
+
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+}
+  .row1 .column1.text-center{
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+
+
+  }
+
+}
