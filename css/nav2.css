@@ -432,10 +432,3 @@ iframe{
 hr{
 	width: 35%;
 }
-
-@media screen and (max-width: 880px){
-
-  nav{
-    height: auto;
-  }
-}

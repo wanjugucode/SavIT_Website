@@ -6,5 +6,8 @@ img{
 p{
     font-size: 18px;
     text-align: justify;
-    width: 90%;
+    width: 100%;
+}
+.container.text-center{
+    margin: 0 auto;
 }
