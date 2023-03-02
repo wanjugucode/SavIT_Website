@@ -446,3 +446,13 @@ hr{
     height: auto;
   }
 }
+.abouts{
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 99.9%;
+    box-shadow: 1px 1px 30px 20px gray;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+
+}

@@ -9,6 +9,10 @@
 /* body{
   padding: 0 10px;
 } */
+.abouts{
+  margin-top: 0%;
+}
+
 .wrapper{
   max-width: 100%;
   width: 100%;
@@ -222,6 +226,7 @@ body{
 	align-items: center;
 	text-align: center;
 	background-color: #fff;
+  
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
