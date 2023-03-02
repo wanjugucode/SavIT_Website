@@ -16,7 +16,6 @@ nav {
 	font-family: 'Montserrat', sans-serif;
 	padding: 0 5%;
 	height: 25%;
-	
 	/* background-color:#444343; */
 	
 	
@@ -47,14 +46,12 @@ nav .links {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	
-
 }
 /* nav .links {
 	display:inline-block;
 	 text-align:center;} */
 nav input .links li a:hover{
-    color: #DB710E;
+    color: rgb(251,175,67);
   }
 nav .logo img {
 	float: left;
@@ -81,11 +78,7 @@ nav .links a {
 	display: block;
 	padding: 0.5em;
 	font-size: 18px;
-	color: white;
-	/* background-color:#965518; */
-	background-color:#bc691b;
-
-	
+	color: black;
 
     
 	text-decoration: none;
@@ -94,7 +87,7 @@ nav .links a {
     font-family: Source Sans Pro;
 
     left: 0;
-    padding: 6px;
+    padding: 10px;
     margin-bottom: 1px;
     text-align: left;
     top: 0;
@@ -103,7 +96,7 @@ nav .links a {
     text-align: center;
 }
 nav .links a:hover {
-	color: black;
+	color: rgb(251,175,67);
 }
 #nav-toggle {
 	position: absolute;

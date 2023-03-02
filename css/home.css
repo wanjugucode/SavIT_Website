@@ -1,5 +1,6 @@
 /* Container holding the image and the text */
 .home-image {
+  margin-top: 2%;
     position: relative;
     text-align: center;
     color: white;
@@ -8,7 +9,7 @@
     opacity: 80%;
   }
   hr{
-	color: rgb(251,175,67);
+	color: #DB710E;
 	padding: 1.5px;
 	
   }
@@ -49,12 +50,12 @@
   }
   .centered h4 {
     text-align: justify;
-    color: rgb(170,216,32);
+    color: white;
     font-size: 33px;
-    letter-spacing: 1;
+    letter-spacing: 0;
   }
   .vl {
-    background: rgb(251,175,67);
+    background: #DB710E;
     padding: 1.2px;
     width: 2px; 
     left: 45%;position:absolute;
@@ -103,7 +104,7 @@
 }
 .card-group .card .card-body .card-link{
 color: white;
-background: rgb(228, 151, 6);
+background: #DB710E;
 padding: 8px;
 width: 50%;
 font-size: 18px;
