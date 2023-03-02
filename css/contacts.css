@@ -250,14 +250,14 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color:#DB710E;
 }
 
 .field{
 	width: 100%;
-	border: 2px solid rgba(0, 0, 0, 0);
+	border: 1px solid #DB710E;
 	outline: none;
-	background-color: rgba(230, 230, 230, 0.6);
+	background-color: white;
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
@@ -275,7 +275,7 @@ textarea{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
+	background-color: #DB710E;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;
@@ -285,11 +285,11 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #e2730c;
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid #DB710E;
     background-color: #fff;
 }
 
