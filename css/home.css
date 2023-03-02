@@ -1,12 +1,16 @@
 /* Container holding the image and the text */
 .home-image {
-  margin-top: 2%;
+  margin-top: 3.5%;
     position: relative;
     text-align: center;
     color: white;
+ 
+      box-shadow: 1px 1px 30px 20px gray;
+
   }
   .home-image img{
     opacity: 80%;
+    margin-top: 0%;
   }
   hr{
 	color: #DB710E;
