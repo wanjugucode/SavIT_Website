@@ -423,17 +423,25 @@ body{
 	margin: 2%;
 	
   }
+  .new-footer{
+    /* box-shadow: 1px 1px 15px 10px #443; */
+	border-radius: 1% 1%;
+	padding-top: 2%;
+  }
 
   .new-footer, .new-footer .card{
 	background:black;
 	color: white;
   }
   .copy-right.text-center{
-	color: white;
-	background-color: #DB710E;
-	padding-bottom: 1%;
-	padding-top: 1%;
+	color: black;
+	background-color: white;
+padding: 1%;
+	margin-top: -1%;
+	text-align: center;
+
   }
+
   .new-footer .card{
 	border: none;
   }
@@ -461,7 +469,7 @@ hr{
     margin: 0 auto;
     margin-top: 3.5%;
     width: 99.9%;
-    box-shadow: 1px 1px 30px 20px wheat;
+    box-shadow: 1px 1px 30px 20px grey;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 5%;
