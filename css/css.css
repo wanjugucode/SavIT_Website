@@ -65,3 +65,8 @@
     height: 170px;
   }
   
+  .card .card-content .btn{
+    background: rgb(31, 28, 28);
+    border: 2px solid #DB710E;
+    color: #DB710E;
+  }
