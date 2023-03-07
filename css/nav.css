@@ -424,7 +424,7 @@ body{
 	
   }
   .new-footer{
-    /* box-shadow: 1px 1px 15px 10px #443; */
+    box-shadow: 1px 1px 15px 10px #443;
 	border-radius: 1% 1%;
 	padding-top: 2%;
   }
@@ -435,12 +435,16 @@ body{
   }
   .copy-right.text-center{
 	color: black;
-	background-color: white;
-padding: 1%;
+	background-color: #DB710E;
 	margin-top: -1%;
-	text-align: center;
 
   }
+  .copy-right.text-center p{
+	text-align: center;
+	padding: 1%;
+
+  }
+
 
   .new-footer .card{
 	border: none;
