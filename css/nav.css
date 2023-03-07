@@ -426,12 +426,14 @@ body{
   .new-footer{
     box-shadow: 1px 1px 15px 10px #443;
 	border-radius: 1% 1%;
-	padding-top: 2%;
+	padding-top: 0%;
+padding-bottom: 5%;	
   }
 
   .new-footer, .new-footer .card{
 	background:black;
 	color: white;
+	height: auto;
   }
   .copy-right.text-center{
 	color: black;
