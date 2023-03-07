@@ -1,6 +1,6 @@
 /* Container holding the image and the text */
 body{background-color: black;
-  
+
   
 }
 .home-image {
@@ -33,7 +33,7 @@ body{background-color: black;
     bottom: -1px;
     left: 5%;
     font-weight: 900;
-	  background: rgb(107, 108, 110);
+	  background: black;
   border-radius: 1%;
   opacity: 80%;
     color: white;
@@ -69,32 +69,38 @@ body{background-color: black;
     left: 45%;position:absolute;
     height: 170px;}
 
+    .row2 .column2{
+      color: white;
+    }
 .row2 .column2.left h1{
     font-weight: 800;
 }
 .row2 .column2 p{
     font-size: 18px;
+    color: white;
 
 }
 .row2 .column2.right h4{
     font-style: bold;
     font-weight: 700;
 }
+
 .row1 .column1{
-	background: rgb(68,68,68);
     color: white;
     margin-left: 5%;
    
-    opacity: 60%;
+
     width: 40%;
     height: 300px;
 
     
 
 }
+
 .row1 .column1 p{
     font-size: 20px;
     text-align: center;
+    color: white;
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -103,29 +109,56 @@ body{background-color: black;
 .row1 .column1 h4{
     padding-top: 5%;
 
+    color: white;
+
+
+}
+.row1 .column1.text-center{
+  height: auto;
+}
+iframe{
+  height: 300px;
+}
+
+
+.card-text.contact p{
+  font-size: 2px;
 
 }
 
 
+.services{
+  padding-bottom: 2%;
+}
+
+.card-group{
+  margin-bottom:5%;
+  height: auto;
+}
 .card-group .card img{
-    height: 200px;
+    height: 150px;
+}
+
+.card-body{
+  height: auto;
 }
 .card-group .card .card-body .card-link{
 color: white;
 background: #DB710E;
 padding: 8px;
-width: 50%;
-font-size: 18px;
+width: 80%;
 text-align: center;
 }
 
 .card-group .card .card-body .card-text{
     font-size: 16px;
+    color: white;
 }
 
 .new-footer .card-group .card .card-body p{
 
     font-size: 16px;
+    color: white;
 }
 
 
@@ -180,4 +213,42 @@ text-align: center;
 
   }
 
+}
+
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card2 {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  transform-origin: bottom;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.card2:hover {
+  transform: translateY(-10px) rotateX(-10deg);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+  background-color: #fff;
 }
