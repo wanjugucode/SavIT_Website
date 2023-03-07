@@ -431,7 +431,6 @@ body{
 	
   }
   .new-footer{
-    box-shadow: 1px 1px 15px 10px #443;
 	border-radius: 1% 1%;
 	padding-top: 0%;
 padding-bottom: 5%;	
@@ -443,9 +442,10 @@ padding-bottom: 5%;
 	height: auto;
   }
   .copy-right.text-center{
-	color: black;
-	background-color: #DB710E;
-	margin-top: -1%;
+	color: #DB710E;
+	
+	background-color:black;
+	padding-bottom: 0%;
 
   }
   .copy-right.text-center p{
@@ -454,7 +454,9 @@ padding-bottom: 5%;
 
   }
 
-
+  .new-footer .row1{
+	background: black;
+}
   .new-footer .card{
 	border: none;
   }
