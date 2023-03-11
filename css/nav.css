@@ -86,7 +86,7 @@ nav .links a {
 	font-size: 18px;
 	color: #DB710E; ;
 	background-color:black;
-	border: 1px solid #DB710E; ;
+	/* border: 1px solid #DB710E; ; */
 	margin-top: 20%;
 
 
@@ -112,7 +112,7 @@ nav .links a:hover {
 	/* color: #DB710E; */
 	background-color: black;
 	border: hidden;
-	border: 1px solid whitesmoke; 
+	/* border: 1px solid whitesmoke;  */
 	/* border: 1px solid #DB710E; */
 
 }
