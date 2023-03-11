@@ -1,14 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
-
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-} */
-/* body{
-  padding: 0 10px;
-} */
+nav{
+  padding-top: 3%;
+}
 .abouts{
   margin-top: 0%;
 }
@@ -16,11 +8,18 @@
 .wrapper{
   max-width: 100%;
   width: 100%;
-  background: #fff;
+  background:black;
   margin: 20px auto;
   box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.125);
   padding: 30px;
+  margin-top: 5%;
   
+}
+.session{
+  background-color: white;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 .wrapper .title{
@@ -30,13 +29,19 @@
   color: #DB710E;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 2%;
 }
 
 .wrapper .form{
-  width: 100%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 0 auto;
+
 }
 
 .wrapper .form .inputfield{
+  background: white;
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -195,7 +200,9 @@ body{
 	width: 100%;
 }
 
-
+.container{
+  margin-top: 6%;
+}
 /* .container{
 	position: relative;
 	width: 100%;
@@ -226,13 +233,16 @@ body{
 	align-items: center;
 	text-align: center;
 	background-color: #fff;
-  box-shadow: 1px 1px 30px 20px gray;
+
+  
+ 
+  /* box-shadow: 1px 1px 30px 20px gray; */
 }
 
 .left{
 	background: url("Images/bg.jpg") no-repeat center;
 	background-size: cover;
-	height: 500%;
+
 }
 .left h4{
   margin-top: 20%;
@@ -285,7 +295,7 @@ h2:after{
 }
 
 textarea{
-	min-height: 150px;
+	min-height: 100px;
 }
 
 .btn{
