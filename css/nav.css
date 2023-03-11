@@ -84,7 +84,7 @@ nav .links a {
 	display: block;
 	padding: 0.5em;
 	font-size: 18px;
-	color: whitesmoke ;
+	color: #DB710E; ;
 	background-color:black;
 	/* border: 1px solid #DB710E; ; */
 	margin-top: 20%;
@@ -107,7 +107,7 @@ nav .links a {
     text-align: center;
 }
 nav .links a:hover {
-	color: #DB710E;
+	color: white;
 	/* background-color:#DB710E; */
 	/* color: #DB710E; */
 	background-color: black;
